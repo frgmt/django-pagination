@@ -29,7 +29,7 @@
 
 
 from django.conf.urls.defaults import (
-    patterns, url, include)
+    patterns, url, include, handler500, handler404)
 
 # Empty patterns so that test project can be started and would work normally
 urlpatterns = patterns('', url('', include('example.urls')))
